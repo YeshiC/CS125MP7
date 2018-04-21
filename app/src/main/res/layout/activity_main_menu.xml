@@ -6,13 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".MainMenu">
 
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/editText" />-->
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Place Holder Name!"
+        android:textAppearance="@android:style/TextAppearance.StatusBar.Icon"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        tools:text="Place Holder Name!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="171dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="138dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="167dp"
+        android:onClick="sendMessage"
+        android:text="Start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="Start" />
 
 </android.support.constraint.ConstraintLayout>
