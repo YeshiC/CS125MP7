@@ -4,22 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#beeeef"
     tools:context=".Dog">
 
 
+    <!--<pl.droidsonroids.gif.GifTextView-->
+    <!--android:id="@+id/room"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="130dp"-->
+    <!--android:layout_marginEnd="0dp"-->
+    <!--android:layout_marginLeft="0dp"-->
+    <!--android:layout_marginRight="0dp"-->
+    <!--android:layout_marginStart="0dp"-->
+    <!--android:layout_marginTop="0dp"-->
+    <!--android:background="@drawable/room"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/room2" />
+
     <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/dog100"
         android:layout_width="191dp"
         android:layout_height="248dp"
-        android:layout_marginBottom="130dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginLeft="95dp"
-        android:layout_marginRight="95dp"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="130dp"
         android:background="@drawable/dog"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="167dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="invisible"/>
+
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/dog200"
+        android:layout_width="191dp"
+        android:layout_height="124dp"
+        android:background="@drawable/dogsleeping"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="167dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="invisible"/>
 
 </android.support.constraint.ConstraintLayout>

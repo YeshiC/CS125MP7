@@ -17,7 +17,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, Dog.class);
+        Intent intent = new Intent(this, Dog.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         //EditText editText = (EditText) findViewById(R.id.editText);
         //String message = editText.getText().toString();
         //intent.putExtra(EXTRA_MESSAGE, message);
